@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page1 {
+    display: flex;
+    height: 500px;
+}
+
+.header {
+    background-color: rgb(7, 45, 53);
+    width: 50%;
+
+}
+
+.header span {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 55px;
+    margin-top: -50px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header img {
+    padding: 10px;
+    height: 40px;
+}
+
+.header h1 {
+    padding: 70px 0px 0px 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.header p {
+    color: white;
+    padding: 20px 100px 0px 100px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 40px;
+    padding: 0px 0px 0px 100px;
+}
+
+.btn1 button {
+    color: white;
+    padding: 15px 40px;
+    background-color: rgb(231, 50, 27);
+    font-size: 18px;
+}
+
+.btn1 button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+.btn2 button {
+    color: black;
+    padding: 15px 40px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.btn2 button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.pic1 {
+    background-color: rgba(2, 175, 160, 0.841);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pic1 img {
+    width: 500px;
+    padding-top: 40px;
+}
+
+.page2 {
+    display: flex;
+    height: 500px;
+    padding: 20px;
+}
+
+.pic2 {
+    width: 40%;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 40px;
+
+}
+
+.pic2 img {
+    height: 400px;
+    margin-left: 70px;
+}
+
+.content {
+
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.content h3 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 70%;
+    padding-top: 20px;
+}
+
+.button {
+    display: flex;
+    margin-top: 40px;
+}
+
+.btna button {
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(231, 50, 27);
+    font-size: 18px;
+}
+
+.btna button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+.btnb button {
+    color: white;
+    background-color: black;
+    padding: 10px 50px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.btnb button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.page3 {
+    height: 500px;
+    background-color: rgb(10, 219, 170);
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.page3 h4 {
+    text-decoration: underline;
+}
+
+.category1 {
+    display: flex;
+    height: 250px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.box1 {
+
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.box1 h4 {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.box2 {
+
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.box2 h4 {
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.box3 {
+
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.box3 h4 {
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.page4 {
+    height: 900px;
+    padding: 70px 70px 0px 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page4 h4 {
+    font-size: 30px;
+}
+
+.page4 p {
+    font-size: 18px;
+    padding: 20px 80px 20px 80px;
+}
+
+.btn3 button {
+    padding: 15px 50px;
+    background-color: rgb(249, 68, 13);
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.btn3 button:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+.page5 {
+
+    height: 650px;
+    padding: 50px;
+    display: flex;
+}
+
+.details {
+    width: 50%;
+    height: 600px;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 img {
+    background-color: rgb(9, 125, 87);
+    width: 50px;
+    padding: 20px;
+    border-radius: 100px;
+    margin-left: 100px;
+    align-items: left;
+}
+
+.img1 h4 {
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+.details h3 {
+    font-size: 30px;
+    padding: 50px 0px 20px 100px;
+    font-weight: bolder;
+
+}
+
+.dimg {
+    width: 50%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.dimg img {
+    width: 700px;
+    padding-top: 50px;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img2 img {
+    background-color: rgb(9, 125, 87);
+    width: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    margin-left: 100px;
+    align-items: left;
+}
+
+.img2 h4 {
+    font-size: 28px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.img3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img3 img {
+    background-color: rgb(9, 125, 87);
+    width: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    margin-left: 100px;
+    align-items: left;
+}
+
+.img3 h4 {
+    font-size: 28px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.img4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img4 img {
+    background-color: rgb(9, 125, 87);
+    width: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    margin-left: 100px;
+    align-items: left;
+}
+
+.img4 h4 {
+    font-size: 28px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.page6 {
+    height: 500px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.page6 h3 {
+    font-size: 35px;
+}
+
+.testimonial {
+    height: 300px;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+    margin-top: 50px;
+    margin-left: 300px;
+    padding-top: 50px;
+}
+
+.testimonial p {
+    font-size: 22px;
+    padding-top: 40px;
+    width: 90%;
+    padding-left: 50px;
+}
+
+.testimonial img {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: rgb(3, 54, 53);
+    height: 500px;
+    padding: 100px;
+}
+
+.fhead span {
+
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 70px;
+    margin-top: -60px;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.icons {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -30px;
+
+}
+
+.icons img {
+    padding-left: 30px;
+
+}
+
+.panels {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fpanel1 {
+    margin-top: 50px;
+    color: white;
+    height: 250px;
+    font-size: 30px;
+    width: 25%;
+
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+ul h1 {
+    font-size: 25px;
+}
+
+ul p {
+    font-size: 18px;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.fpanel1 input{
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
